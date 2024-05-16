@@ -1,6 +1,17 @@
 import json
 
+artikel = input("Artikel: ")
+nummer = input("Nummer: ")
+menge = input("Menge: ")
+lagerort = input("Lagerort: ")
 
+
+data = {
+    "artikel": artikel,
+    "nummer": nummer,
+    "menge": menge,
+    "lagerort": lagerort
+}
 
 
 # Dictionary in eine JSON-Datei schreiben
