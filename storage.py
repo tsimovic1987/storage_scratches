@@ -17,13 +17,15 @@ nummer = input("Nummer: ")
 menge = input("Menge: ")
 lagerort = input("Lagerort: ")
 
-storage = []
+
 item = {
     "artikel": artikel,
     "nummer": nummer,
     "menge": menge,
     "lagerort": lagerort
 }
+
+storage = [artikel, nummer, menge, lagerort]
 storage.append(item)
 write_list(storage)
 read_list("storage.json")
