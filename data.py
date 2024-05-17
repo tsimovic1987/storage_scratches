@@ -40,6 +40,9 @@ while True:
         print("Nur Lagerort 1 - 4 verfügbar.")
 
 # Dictionary Data
+
+artikel = artikel.upper()
+
 item = {
     'Artikelbezeichnung': artikel,
     'Artikelnummer': nummer,
@@ -47,4 +50,4 @@ item = {
     'Lagerort': lagerort
 }
 
-menge = menge.upper()
+print(item)
