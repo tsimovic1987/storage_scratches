@@ -30,11 +30,11 @@ lagerort = get_valid_input(
 )
 lagerort = int(lagerort)  # Convert to integer after validation
 
+artikel = artikel.upper()
+
 item = {
     'Artikelbezeichnung': artikel,
     'Artikelnummer': nummer,
     'Lagermenge': menge,
     'Lagerort': lagerort
 }
-
-menge = menge.upper()  # This line doesn't make sense; it can be removed if not needed
