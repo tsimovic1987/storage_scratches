@@ -38,3 +38,5 @@ item = {
     'Lagermenge': menge,
     'Lagerort': lagerort
 }
+
+print(item)
