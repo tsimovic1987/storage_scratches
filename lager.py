@@ -37,8 +37,11 @@ print(type(bestand))
 print(bestand)
 
 artikelnummer = input("artikelnummer: "), input("menge: ")
-liste = [artikelnummer]
+artikelliste = [artikelnummer]
 print(type(artikelnummer))
 print(artikelnummer)
-print(type(liste))
-print(liste)
+print(type(artikelliste))
+print(artikelliste)
+
+def entf(liste: list, entf_obj: str, int) -> None: # nochmal nachschauen ob die zeile wirklich valid ist!
+    liste.remove(entf_obj)
