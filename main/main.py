@@ -1,6 +1,7 @@
 import csv
 from lagerbestand import Lagerbestand
 from lagerverwaltung import Lagerverwaltung
+from get_valid import get_valid_input
 
 def get_valid_input(prompt: str, validate_func, error_msg: str) -> str:
     while True:
