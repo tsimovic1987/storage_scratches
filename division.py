@@ -21,7 +21,9 @@ class RawPart:
 
     @propellant.setter
     def propellant(self, value):
-        
+        if not isinstance(value, str):
+            raise TypeError('Must be a String')
+        self._propellant = value
 
     def set_location():
         pass
