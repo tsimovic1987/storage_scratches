@@ -19,6 +19,10 @@ class RawPart:
             raise TypeError('Must be a Strng')
         self._plastic = value
 
+    @propellant.setter
+    def propellant(self, value):
+        
+
     def set_location():
         pass
 
