@@ -1,10 +1,24 @@
 class RawPart:
     def __init__(self, plastic, propellant, status_high=False, status_ground=False):
-        self.plastic = plastic
-        self.propellant = propellant
+        self._plastic = plastic
+        self._propellant = propellant
         self.status_high = status_high
         self.status_ground = status_ground
-        
+
+    @property
+    def plastic(self):
+        return self._plastic
+    
+    @property
+    def propellant(self):
+        return self._propellant
+    
+    @plastic.setter
+    def plastic(self, value):
+        if not isinstance(value, str):
+            raise TypeError('Must be a Strng')
+        self._plastic = value
+
     def set_location():
         pass
 
