@@ -29,7 +29,8 @@ class RawPart:
         pass
 
 class PaintedPart(RawPart):
-    pass
+    def __init__(self, plastic, propellant, status_high=False, status_ground=False):
+        super().__init__(plastic, propellant, status_high, status_ground)
 
 class PurchasingPart:
     pass
