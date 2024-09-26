@@ -33,10 +33,13 @@ class PaintedPart(RawPart):
         super().__init__(plastic, propellant, status_high, status_ground)
 
 class PurchasingPart:
-    pass
+    def __init__(self) -> None:
+        pass
 
 class ProductionPart:
-    pass
+    def __init__(self) -> None:
+        pass
 
 class StorageLocation:
-    pass
+    def __init__(self) -> None:
+        pass
