@@ -28,7 +28,7 @@ class RawPart:
     def set_location():
         pass
 
-class PaintedPart:
+class PaintedPart(RawPart):
     pass
 
 class PurchasingPart:
